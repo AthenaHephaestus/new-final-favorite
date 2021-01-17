@@ -1,0 +1,64 @@
+#intropg1{
+    background: linear-gradient(green  33%, aquamarine 66%, mediumorchid 100%);
+    z-index: 9;
+    text-align: center;
+}
+body{
+    text-align: center;
+}
+#reviews{
+    background-color: darkgreen;
+    text-align: center;
+}
+#work{
+    background-color: crimson;
+    text-align: center;
+}
+h1{
+    font-family: fantasy;
+    color: bisque;
+}
+
+h2{
+    font-family: monospace;
+    color: firebrick;
+}
+p{
+    font-family: inherit;
+    color: maroon;
+    line-height: 25px;
+}
+
+.options{
+    position: absolute;
+    list-style: none;
+    top: 10px; 
+    left: 5px;
+    z-index: 10;
+    cursor: pointer; 
+}
+
+.links{
+    float: left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.links:hover{
+    background-color: aquamarine;
+    font-size: 30px;
+    font-family: 'Redressed', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+#contact{
+    background-color: darkgoldenrod;
+}
+#inspiration{
+    background-color:darkolivegreen;
+}
